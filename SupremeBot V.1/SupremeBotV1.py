@@ -2,12 +2,13 @@
 #September 15, 2020
 #For Educatinal Purposes Only
 
+#All Imports Used
 from selenium import webdriver
 from Store_Your_Info import fill 
 from selenium.webdriver.support.ui import Select
 import time
 
-#This function buys the things that 
+#This function takes the url and purchases the item with the correct info
 def checkout():
 
 	#Make Window Full Screen
@@ -47,10 +48,10 @@ def checkout():
 	#Process Payment
 	driver.find_element_by_xpath('//*[@id="pay"]/input').click()
 
-
+#Main
 if __name__ == '__main__':
 
-	PATH = "C:\Program Files (x86)\chromedriver.exe"
+	PATH = "C:\Program Files (x86)\chromedriver.exe" #Insert your chrome driver path here
 	driver = webdriver.Chrome(PATH)
 
 	driver.get(fill['url'])

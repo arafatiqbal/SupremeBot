@@ -22,5 +22,11 @@ chromdriver: http://chromedriver.chromium.org/downloads
 ```
 #### STEP THREE
 ```
-$ Run the Program with python SupremeBotV1.py
+- Run the Program with python SupremeBotV1.py
 ```
+
+This program was made for educational purposes only.
+I wanted to try and learn something new, and therefore created this program. 
+It is free to use by anyone, so give it a try, and try to edit to make it even better.
+
+Thank you for your time!
