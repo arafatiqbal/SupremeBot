@@ -7,7 +7,7 @@ from Store_Your_Info import fill
 from selenium.webdriver.support.ui import Select
 import time
 
-
+#This function buys the things that 
 def checkout():
 
 	#Make Window Full Screen

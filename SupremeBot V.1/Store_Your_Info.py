@@ -1,4 +1,8 @@
-#Stores all the information that can be edited based on your info
+#Arafat Iqbal
+#September 15, 2020
+
+#This file is to store all the information that can be edited based on your info
+#You may change this and insert all correct infomation
 
 fill = {
 
@@ -16,5 +20,5 @@ fill = {
 	"card_month":"01", #Enter 0 in Front
 	"card_year":"2022", #Enter Full Year
 	"cvv":"333" #CVV
-	#Hello
+	
 }
