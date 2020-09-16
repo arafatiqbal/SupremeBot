@@ -1,5 +1,9 @@
+#Arafat Iqbal
+#September 15, 2020
+#For Educatinal Purposes Only
+
 from selenium import webdriver
-from info import fill
+from Store_Your_Info import fill 
 from selenium.webdriver.support.ui import Select
 import time
 
